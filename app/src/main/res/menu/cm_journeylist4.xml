@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/miJ4Add"
+        android:title="Listeye Ekle" />
+    <item
+        android:id="@+id/miJ4Delete"
+        android:title="Listeden Çıkart" />
+</menu>

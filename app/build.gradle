@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'iettmst'
+            keyPassword '123456'
+            storeFile file('C:/Users/ABRA-A5-V52/AndroidStudioProjects/iettmst/iettmst.jks')
+            storePassword '123456'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+    defaultConfig {
+        applicationId "com.borcofix.iettmst"
+        minSdkVersion 16
+        targetSdkVersion 21
+        versionCode 1
+        versionName '1.1'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:design:25.2.0'
+    compile 'org.jsoup:jsoup:1.10.3'
+    compile 'com.google.firebase:firebase-crash:11.6.2'
+    testCompile 'junit:junit:4.12'
+
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.5'
+}
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "600430080772",
+    "firebase_url": "https://iettmst-main.firebaseio.com",
+    "project_id": "iettmst-main",
+    "storage_bucket": "iettmst-main.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600430080772:android:3464ce851e0d70c7",
+        "android_client_info": {
+          "package_name": "com.borcofix.iettmst"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600430080772-nuvtqbola42dna7n49d63p9n9rm3424v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.borcofix.iettmst",
+            "certificate_hash": "acf0306a563d60139584fba5773bfeee8eee1c9e"
+          }
+        },
+        {
+          "client_id": "600430080772-2lvkihp34e6io1dfg0iffk1alppdojk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACwTIQZs05KeednIHaMt_EYLmdUbyaArg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600430080772-2lvkihp34e6io1dfg0iffk1alppdojk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

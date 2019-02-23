@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <item
+            android:id="@+id/iBeylikduzu34BZ"
+            android:icon="@mipmap/ic_menu_icon"
+            android:title="@string/start_point1" />
+        <item
+            android:id="@+id/iBeylikduzu34C"
+            android:icon="@mipmap/ic_menu_icon"
+            android:title="@string/start_point2" />
+
+
+        <item
+            android:id="@+id/iAvcilarSogutlucesme"
+            android:icon="@mipmap/ic_menu_icon"
+            android:title="@string/start_point3" />
+
+
+
+        <item
+            android:id="@+id/iCevizlibagBeylikduzu"
+            android:icon="@mipmap/ic_menu_icon"
+            android:title="@string/start_point4" />
+
+
+        <item
+            android:id="@+id/iZincirlikuyuSogutlucesme"
+            android:icon="@mipmap/ic_menu_icon"
+            android:title="@string/start_point5" />
+        <item
+            android:id="@+id/iZincirlikuyuBeylikduzu"
+            android:icon="@mipmap/ic_menu_icon"
+            android:title="@string/start_point6" />
+
+        <item
+            android:id="@+id/iSogutlucesme"
+            android:icon="@mipmap/ic_menu_icon"
+            android:title="@string/start_point7" />
+
+    <group
+        android:id="@+id/grupInfo">
+        <item
+            android:id="@+id/iInfo"
+            android:icon="@mipmap/ic_info"
+            android:title="Bilgi">
+
+        </item>
+
+    </group>
+</menu>

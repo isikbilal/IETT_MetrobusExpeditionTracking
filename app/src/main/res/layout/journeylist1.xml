@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlJ1Main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llJ1Top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/tvJ1Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/tvTitle"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp"
+            android:text="@string/start_point1"
+            android:textAlignment="center"
+            android:textColor="#616161"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llJ1Bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/tvJ1UpdateDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:background="@color/tvUpdateDate"
+            android:text="@string/date_time_default_value"
+            tools:text="Son Güncellenme Tarihi: " />
+
+        <TextView
+            android:id="@+id/tvJ1PersonnelCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="2"
+            android:background="@color/tvPersonnelCount"
+            android:paddingLeft="2dp"
+            android:text="@string/personal_count_default_value" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvJ1Personel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/llJ1Bottom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/llJ1Top"
+        android:layout_weight="8"></ListView>
+
+</RelativeLayout>
